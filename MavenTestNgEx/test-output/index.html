@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testngSample.FirstSampleEx" class="method navigator-link" hash-for-method="extenttest">extenttest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="stepdefination.testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating Search is workinn&quot;, &quot;Searching On Browser&quot;)">runScenario("Validating Search is workinn", "Searching On Browser")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="stepdefination.testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check login is successfull&quot;, &quot;Test login functonality&quot;)">runScenario("Check login is successfull", "Test login functonality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="stepdefination.testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check login is successfull&quot;, &quot;Test login functonality&quot;)">runScenario("Check login is successfull", "Test login functonality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +131,37 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testngSample.FirstSampleEx</span>
+              <span class="class-name">stepdefination.testrunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="extenttest">
-                  </a> <!-- extenttest -->
-                  <span class="method-name">extenttest</span>
+                  <a name="runScenario(&quot;Validating Search is workinn&quot;, &quot;Searching On Browser&quot;)">
+                  </a> <!-- runScenario("Validating Search is workinn", "Searching On Browser") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating Search is workinn","Searching On Browser")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check login is successfull&quot;, &quot;Test login functonality&quot;)">
+                  </a> <!-- runScenario("Check login is successfull", "Test login functonality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check login is successfull","Test login functonality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check login is successfull&quot;, &quot;Test login functonality&quot;)">
+                  </a> <!-- runScenario("Check login is successfull", "Test login functonality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check login is successfull","Test login functonality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +169,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse-529968004/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse-1592086823/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +178,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testngSample.FirstSampleEx&quot;/&gt;
+      &lt;class name=&quot;stepdefination.testrunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -169,6 +202,14 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -185,16 +226,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'extenttest')
-data.setCell(0, 2, 'testngSample.FirstSampleEx')
-data.setCell(0, 3, 3698);
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'stepdefination.testrunner')
+data.setCell(0, 3, 7305);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'stepdefination.testrunner')
+data.setCell(1, 3, 7244);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'stepdefination.testrunner')
+data.setCell(2, 3, 6466);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,19 +269,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testngSample.FirstSampleEx</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">stepdefination.testrunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">starttest</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@40d52be7)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">extenttest</span>
-                <span class="method-start">83 ms</span>
+                <span class="method-name">runScenario("Validating Search is workinn", "Searching On Browser")</span>
+                <span class="method-start">455 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">3783 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check login is successfull", "Test login functonality")</span>
+                <span class="method-start">6924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check login is successfull", "Test login functonality")</span>
+                <span class="method-start">14231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">21478 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
